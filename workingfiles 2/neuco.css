@@ -1,0 +1,201 @@
+/* Spotted Wren Garden Center */
+@font-face {
+  font-family: 'LatinModernSans10Regular';
+  src: url('fonts/lmsans10-regular-webfont.eot');
+  src: local('☺'), url('fonts/lmsans10-regular-webfont.woff') format('woff'), url('fonts/lmsans10-regular-webfont.ttf') format('truetype'), url('fonts/lmsans10-regular-webfont.svg#webfontN8lwBY19') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+@font-face {
+  font-family: 'LatinModernSans10Bold';
+  src: url('fonts/lmsans10-bold-webfont.eot');
+  src: local('☺'), url('fonts/lmsans10-bold-webfont.woff') format('woff'), url('fonts/lmsans10-bold-webfont.ttf') format('truetype'), url('fonts/lmsans10-bold-webfont.svg#webfontNWekoGWb') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+figure, footer, nav {
+  display: block;
+  }
+article {
+  display: block;
+  padding: 10px;
+  }
+aside {
+  display: block;
+  padding: 10px;
+  }
+body {
+  font-family: verdana, arial, helvetica, sans-serif; 
+  margin-left: auto;
+  margin-right: auto;
+  background: tan;
+  background: url("images/wood.jpg");
+  }
+dd {
+  font-style: italic;
+  }
+figure img {
+  float: right;
+  }
+footer {
+  background: brown;
+  text-align: center;
+  clear: right;
+  }
+footer p { 
+  padding: 0.5em;
+  }
+form {
+  background: tan;
+  padding-top: 20px;
+ }
+h1 {
+  font-family: LatinModernSans10Bold, arial, helvetica, sans-serif;
+  font-size: 2em;
+  }
+h2 {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  }
+h3 {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.25em;
+  }
+nav {
+  font-size: 1.25em;
+  }
+table {
+  margin: 1em 0;
+  border-collapse: collapse;
+  }
+td {
+  border: 1px solid black;
+  padding: 0.25em;
+  }
+th {
+  border: 1px solid black;
+  padding: 0.25em;
+  background: #e0e0e0;
+  }
+#box {
+  width: 864px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+  }
+#contactinfo label {
+  display: block;
+  position: relative;
+  margin: 12px 0;
+  }
+#contactinfo input {
+  position: absolute;
+  left: 130px;
+  }
+#info {
+  height: 220px;
+}
+#jobtype label {
+  display: block;
+  }
+#logobg img {
+  position: relative;
+  left: 155px;
+ }
+#main {
+  position: relative;
+  display: block;
+  height: 180px;
+}
+#mainnav {
+  color: white;
+  text-align: center;
+  background: orange;
+  padding: 0.25em;
+  }
+#mainnav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0.25em;
+  }
+#nameinput, #emailinput, #addrinput {
+  width: 30em;
+  }
+#notes {
+  display: block;
+  }
+#skipnav {
+  padding: 0.5em;
+  background: tan;
+  background: url("images/wood.jpg");
+  }
+#skiplink {
+  padding: 0.25em;
+  margin: 0;
+  background: white;
+  }
+#img1, #img2, #img3 {
+  margin: 1em;
+  padding: 0;
+  position: relative;
+}
+#submitbutton {
+  border: none;
+  text-align: center;
+  margin-bottom: 0;
+  }
+#tagline {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  }
+#zipinput, #phoneinput {
+  width: 12em;
+  }
+.day {
+  font-weight: bold;
+  }
+.row {
+  display: table-row;
+  }
+.row div {
+  display: table-cell;
+  padding: 0.1em 0.5em;
+  }
+.table {
+  display: table;
+  }
+.taglinesub {
+  font-family: LatinModernSans10Regular, arial, helvetica, sans-serif;
+  font-size: 1.25em;
+  text-align: center;
+  padding: 10px;
+  }
+a:link {
+  color: #993300;
+  }
+a:visited {
+  color: #999966;
+  }
+a:hover {
+  color: black;
+  }
+a:active {
+  color: #999966;
+  }
+#mainnav a:link {
+  color: white;
+  }
+#mainnav a:visited {
+  color: #d6d6c2;
+  }
+#mainnav a:hover {
+  color: #ffff00;
+  }
+#mainnav a:active {
+  color: #ffcc00;
+  }
